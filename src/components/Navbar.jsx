@@ -35,7 +35,7 @@ export function Navbar() {
     return (
         <div className="navbar">
             <h1 className="navbar__header">BlogMania 💬</h1>
-            {isSignedIn && ( // Se o usuário estiver conectado me retorna isto!
+            {isSignedIn && (
                 <div className="blog__search">
                     <input
                         onKeyPress={(e) => handleKeyPress(e)}
